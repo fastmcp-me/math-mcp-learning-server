@@ -27,12 +27,12 @@ jobs:
     - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6
     
     - name: Ruff check
-      uses: astral-sh/ruff-action@v1
+      uses: astral-sh/ruff-action@57714a7c8a2e59f32539362ba31877a1957dded1 # v3
       with:
         args: 'check'
     
     - name: Ruff format
-      uses: astral-sh/ruff-action@v1
+      uses: astral-sh/ruff-action@57714a7c8a2e59f32539362ba31877a1957dded1 # v3
       with:
         args: 'format --check'
 
